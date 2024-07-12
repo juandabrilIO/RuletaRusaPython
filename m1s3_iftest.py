@@ -9,11 +9,10 @@ guess = int(guess)
 
 if number == guess:
     print( "Ganaste ! " )
-
     
 else:
     print( "Perdiste! " )
-    print('\n el número es:',number)
+    print('\n el número era:',number)
 
 
 print("La condicion es:")
