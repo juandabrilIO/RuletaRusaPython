@@ -7,8 +7,10 @@ number = random. randint(1,10)
 guess = input( "Adivina un número entre 1 y 10: (Ingresa tu número) --> \t")
 guess = int(guess)
 
-if number == guess:
+if number == guess:     
     print( "Ganaste ! " )
+    
+
     
 else:
     print( "Perdiste! " )
